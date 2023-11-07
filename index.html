@@ -1,0 +1,151 @@
+<DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+ <style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff5500;
+  color: black;
+  text-align: center;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 10px;
+  border-radius: 4px;
+}
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: white;
+  color: black;
+}
+.header a.active {
+  background-color: #ff5500;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: right;
+  }
+}
+.link {
+   font-family: "Arial", Helvetica, sans-serif;
+}
+.mainimg {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.maintitle {
+   font-family: "Arial", Helvetica, sans-serif;
+   text-align: center;
+}
+.welvid {
+   font-family: "Arial", Helvetica, sans-serif;
+   text-align: center;
+   display: block;
+   margin: auto;
+}
+.Paragraphs {
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+    width: auto;
+}
+.Paragraphs {
+  font-family: "arial", Helvetica, sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.body
+{
+    background-color: black; 
+    color: white; 
+}
+h1 {
+color: #ff5500; 
+}
+h2 {
+color: #ff5500; 
+}
+</style>
+
+ <div class="header">
+  <a class="active" href="index.html" class="logo">Home</a>
+  <div class="header-right">
+	<a class="link" href="ArduinoPage.html">Arduino</a>
+    <a class="link" href="MicroBitPage.html">Micro:Bit</a>
+    <a class="link" href="RaspberryPage.html">Raspberry Pie</a>
+	<a class="link" href="ContactPage.html">Contact Us</a>
+  </div>
+</div> 
+
+<body>
+<div class="maintitle">
+<h1>The Big World Of Technology</h1>
+</div>
+<img class="mainimg" src="./img/main.jpg" alt="MainImg" class="centre">
+</div>
+
+<div class="welvid">
+<h2>What is Coding?</h2>
+<video width="480" height="360" controls >
+<source src="./vid/coding.mp4" type="video/mp4">
+</video>
+<div class="welvid">
+<p>Source: www.youtube.com/watch?v=cKhVupvyhKk</p>
+</div>
+
+<div class="Paragraphs">
+<h1>Arduino</h1>
+<p>Arduino is an open-source electronics platform based on easy-to-use hardware and software.</p>
+<p> Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing. </p>
+
+<h1>Micro:Bit</h1>
+<p>Just metres short of a mountain, Castle Hill is the giant pink granite monolith that stands proud in the centre of Townsville - a perfect place for visitors to orientate themselves.<p>
+<p>As well as offering an iconic centrepiece for the city and spectacular scenic views, Castle Hill has a significant history. The Hill's vantage was used by visiting American soldiers during World War II. According to local legend, the visitors famously offered to demolish the hill and use the rock to build a bridge to Magnetic Island. A World War II observation bunker sits on one corner of the Hill reminding visitors of Castle Hill's military history.</p>
+
+<h1>Raspberry Pie</h1>
+<p>The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python. It’s capable of doing everything you’d expect a desktop computer to do, from browsing the internet and playing high-definition video, to making spreadsheets, word-processing, and playing games.</p>
+</div>
+
+<div class="footer">
+  <h4>Copyright 2019 © Reeze Inc.<h4>
+</div>
+</body>
+</html>
